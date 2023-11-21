@@ -11,8 +11,8 @@ const user = prompt("Enter your name");
 const myVideo = document.createElement("video");
 myVideo.muted = true;
 
-let myStream;
-
+var myStream;
+var xyz=100;
 navigator.mediaDevices
     .getUserMedia({
         audio: true,
